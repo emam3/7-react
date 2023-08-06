@@ -1,3 +1,58 @@
+@font-face {
+  font-family: "adequate-bold";
+  src: url("../src/assets/adequate-bold.ttf")
+}
+
+.bold {
+  font-family: adequate-bold;
+}
+
+@font-face {
+  font-family: "adequate-light";
+  src: url("../src/assets/adequate-light.ttf")
+}
+
+.light {
+  font-family: adequate-light;
+}
+
+@font-face {
+  font-family: "adequate-medium";
+  src: url("../src/assets/adequate-medium.ttf")
+}
+
+.medium {
+  font-family: adequate-medium;
+}
+
+@font-face {
+  font-family: "adequate-regular";
+  src: url("../src/assets/adequate-regular.ttf")
+}
+
+.regular {
+  font-family: adequate-regular;
+}
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+h3 {
+  font-family: adequate-bold !important;
+  padding-bottom: 20px;
+}
+
+.ContactUs {
+  background-color: #bfbfbf;
+}
+
+.service-img {
+  margin-right: 10px;
+}
+
 .App {
   text-align: center;
 }
@@ -32,6 +87,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

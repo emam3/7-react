@@ -1,5 +1,5 @@
-import { Avatar, Box, Grid, Stack, Typography } from '@mui/material'
-import React from 'react'
+import React from 'react';
+import { useMediaQuery } from 'react-responsive';
 
 const services = [
     {
@@ -64,21 +64,25 @@ const services = [
     }
 ]
 export const OurServices = (): JSX.Element => {
+    const isMobile = useMediaQuery({ maxWidth: 786 });
     return (
-        <Stack sx={{backgroundImage:'url(https://i.imgur.com/wNduj9X.png)', backgroundSize:'cover'}} height={'700px'}>
-            <Typography mt={3} variant='h3'>What we will offer</Typography>
-            <Grid mt={3} container spacing={2} width={'100%'} display={'flex'} justifyContent={'flex-end'}>
-                {
-                    services.map((service) => {
-                        return (
-                            <Grid display={'flex'} flexDirection={'row'} item xs={5} alignItems={'center'} justifyContent={'flex-start'}>
-                                <Avatar src={service.image} sx={{mr:1}}/>
-                                <Typography>{service.text}</Typography>
-                            </Grid>
-                        )
-                    })
-                }
-            </Grid>
-        </Stack>
+        <div id='services' className={isMobile ? 'ourServices-mobile' : 'ourServices'}>
+            <h3>What we will offer :</h3>
+
+            <div className="container offers">
+                <div className="row no-gutters">
+                    {
+                        services.map((service: any, index: number) => {
+                            return (
+                                <div className="col-sm-5 services no-gutters">
+                                    <img className='service-img' width={'40px'} height={'40px'} src={service.image} />
+                                    <p className='regular'>{service.text}</p>
+                                </div>
+                            )
+                        })
+                    }
+                </div>
+            </div>
+        </div>
     )
 }

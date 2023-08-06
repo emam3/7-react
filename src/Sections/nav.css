@@ -1,0 +1,73 @@
+@media only screen and (min-width: 1200px) {
+    .floating-nav {
+        height: 100%;
+        position: fixed; /* Use position: fixed to make the navigation bar float */
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: (0,0,0,0); /* Set your desired background color */
+        padding: 10px; /* Add padding to the nav items for better spacing */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+      
+      .floating-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex; /* Use flexbox to create a horizontal navigation */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      
+      .floating-nav li {
+        margin-right: 20px; /* Add spacing between navigation items */
+        padding: 10px;
+      }
+      
+      .floating-nav a {
+        color: white;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color : #b2b2b2
+      }
+      
+      .floating-nav a:hover {
+        text-decoration: underline;
+      }
+}
+
+@media (max-width: 767px) {
+    .floating-nav {
+        position: fixed; /* Use position: fixed to make the navigation bar float */
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333; /* Set your desired background color */
+        padding: 10px; /* Add padding to the nav items for better spacing */
+      }
+      
+      .floating-nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex; /* Use flexbox to create a horizontal navigation */
+      }
+      
+      .floating-nav li {
+        margin-right: 20px; /* Add spacing between navigation items */
+      }
+      
+      .floating-nav a {
+        color: white;
+        text-decoration: none;
+      }
+      
+      .floating-nav a:hover {
+        text-decoration: underline;
+      }
+}
