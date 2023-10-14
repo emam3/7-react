@@ -16,6 +16,7 @@
 .clearfix {
     text-align: left;
     font-size: 24px;
+    color: #fff
 }
 
 .h1 {
@@ -25,24 +26,28 @@
     font-size: 100px !important;
 }
 
+.offers-header {
+    color: #05E2FC;
+}
+
 .cover-mobile {
-    background-image: url('https://i.imgur.com/Hz0tCdH.png');
-    width: 1500px;
-    height: 1080px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-image: url(https://i.imgur.com/wAAP18A.png);
+    background-size: cover;
+}
+
+.aboutus-img-mobile {
+    width: 60%;
+    height: auto;
 }
 
 .aboutUs-mobile {
-    background-color: #bfbfbf;
-    width: 1500px;
-    height: 1080px;
+    padding: 50px;
+    background-color: #0F0150;
 }
 
 
 .cover-web {
-    background-image: url('https://i.imgur.com/Hz0tCdH.png');
+    background-image: url('https://i.imgur.com/wAAP18A.png');
     width: 100%;
     height: 1080px;
     display: flex;
@@ -51,14 +56,14 @@
 }
 
 .aboutUs-web {
-    background-color: #bfbfbf;
+    background-color: #0F0150;
     width: 100%;
     height: 1080px;
 }
 
 
 .cover {
-    background-image: url('https://i.imgur.com/Hz0tCdH.png');
+    background-image: url('https://i.imgur.com/wAAP18A.png');
     background-size: 100% 100%;
     background-position: center center;
 
@@ -104,13 +109,12 @@
 }
 
 .ourServices {
-    background-color: #e2e2e2;
+    background-color: #0F0150;
 }
 
 .ourServices-mobile {
     padding-top: 50px;
-    background-color: #e2e2e2;
-    width: 1500px;
+    background-color: #0F0150;
 }
 
 .offers {
@@ -149,6 +153,41 @@
 
 
 @media (max-width: 767px) {
+    .form {
+        padding: 30px;
+    }
+
+    .ContactUs {
+        padding: 0px !important;
+    }
+
+    h3 {
+        padding-top:0px !important ;
+        padding-bottom: 46px;
+    }
+    .mobile-service {
+        display: flex;
+        justify-content: center;
+    }
+
+    .regular {
+        font-family: adequate-regular;
+        font-size: 8px !important;
+        text-align: left !important;
+      }
+
+    .about-us-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .clearfix {
+        text-align: center !important;
+        font-size: 10px !important;
+    }
+
     .services {
         display: flex;
         align-items: center;
@@ -156,9 +195,12 @@
         margin-left: 0px;
         margin-bottom: 20px;
     }
-
-    h1 {
-        font-size: 36px;
+    
+    .services p {
+        padding-bottom: 0px !important;
+    }
+    .h1 {
+        font-size: 50px !important;
         /* Larger font size for h1 on larger screens */
     }
 
@@ -169,7 +211,7 @@
 }
 
 .ContactUs {
-padding: 200px;
+    padding: 200px;
 }
 
 .form {

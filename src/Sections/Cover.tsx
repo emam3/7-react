@@ -5,11 +5,29 @@ import { useMediaQuery } from 'react-responsive';
 
 
 export const Cover = () => {
-    const coberLink: string = 'https://i.imgur.com/G0iaEMO.png';
+    const coverLink: string = 'https://i.imgur.com/35bHmZE.png';
     const isMobile = useMediaQuery({ maxWidth: 786 });
     return (
         <div className={isMobile ? 'cover-mobile' : 'cover-web'} id="cover">
-            <img src={coberLink} className='img-fluid' />
+            <div className="container">
+                <div className="row">
+                    <div className="col-xs-12" style={{ visibility: 'hidden' }}>a</div>
+                    <div className="col-xs-12" style={{ visibility: 'hidden' }}>a</div>
+                    <div className="col-xs-12" style={{ visibility: 'hidden' }}>a</div>
+
+                </div>
+                <div className="row">
+                    <div className="col-xs-2">
+                        <img src={coverLink} width={'50%'} />
+                    </div>
+
+                    <div className="row">
+                        <div className="col-xs-12" style={{visibility: "hidden"}}>a</div>
+                        <div className="col-xs-12" style={{ visibility: 'hidden' }}>a</div>
+                        <div className="col-xs-12" style={{ visibility: 'hidden' }}>a</div>
+                    </div>
+                </div>
+            </div>
         </div>
     )
 }

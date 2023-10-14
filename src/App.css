@@ -1,6 +1,6 @@
 @font-face {
   font-family: "adequate-bold";
-  src: url("../src/assets/adequate-bold.ttf")
+  src: url("../src/assets/GILROY-BOLD.TTF")
 }
 
 .bold {
@@ -9,7 +9,7 @@
 
 @font-face {
   font-family: "adequate-light";
-  src: url("../src/assets/adequate-light.ttf")
+  src: url("../src/assets/GILROY-BLACK.TTF")
 }
 
 .light {
@@ -18,7 +18,7 @@
 
 @font-face {
   font-family: "adequate-medium";
-  src: url("../src/assets/adequate-medium.ttf")
+  src: url("../src/assets/GILROY-MEDIUM.TTF")
 }
 
 .medium {
@@ -27,11 +27,12 @@
 
 @font-face {
   font-family: "adequate-regular";
-  src: url("../src/assets/adequate-regular.ttf")
+  src: url("../src/assets/GILROY-BLACK.TTF")
 }
 
 .regular {
   font-family: adequate-regular;
+  color: #fff
 }
 
 body,
@@ -47,7 +48,7 @@ h3 {
 }
 
 .ContactUs {
-  background-color: #bfbfbf;
+  background-color: #0F0150;
 }
 
 .service-img {
@@ -92,4 +93,40 @@ h3 {
   to {
     transform: rotate(360deg);
   }
+}
+
+a:link,
+a:visited {
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:link:active,
+a:visited:active {
+  color: #fff;
+}
+
+.css-bupxxy-MuiInputBase-root-MuiInput-root::before {
+  border-color: rgb(255, 255, 255) !important;
+}
+
+.css-1qymr3o-MuiInputBase-root-MuiInput-root::before {
+  border-color: rgb(255, 255, 255) !important;
+}
+
+.css-1qymr3o-MuiInputBase-root-MuiInput-root {
+  color: #fff !important;
+}
+
+.css-bupxxy-MuiInputBase-root-MuiInput-root {
+  color: #fff !important;
+}
+
+.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+  color: #fff !important;
+}
+
+fieldset {
+  border-color: #fff !important;
 }

@@ -1,5 +1,4 @@
 import { Button, Input, TextField } from '@mui/material';
-import React from 'react';
 
 export const ContactUs = () => {
 
@@ -9,7 +8,7 @@ export const ContactUs = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">
-                        <img src='https://i.imgur.com/S16eU8d.png' className='img-fluid' />
+                        <img src='https://i.imgur.com/CCtIafA.png' className='img-fluid' />
                     </div>
 
                     <div className="col-lg-2"></div>
@@ -27,7 +26,7 @@ export const ContactUs = () => {
                             rows={3} />
 
                         <Button variant="outlined"
-                            sx={{ border: '1px solid #575757', color: '#575757' }}
+                            sx={{ border: '1px solid #fff', color: '#fff' }}
                         >Send</Button>
                     </div>
 
