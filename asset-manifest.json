@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/7-react/static/css/main.39637832.css",
-    "main.js": "/7-react/static/js/main.56fb5e73.js",
+    "main.css": "/7-react/static/css/main.bfb5fe08.css",
+    "main.js": "/7-react/static/js/main.2fcc5662.js",
     "static/js/787.0bdde55a.chunk.js": "/7-react/static/js/787.0bdde55a.chunk.js",
-    "static/media/adequate-light.ttf": "/7-react/static/media/adequate-light.b3aeab77cad15eaa6569.ttf",
-    "static/media/adequate-regular.ttf": "/7-react/static/media/adequate-regular.834ad81218e408841fe3.ttf",
-    "static/media/adequate-medium.ttf": "/7-react/static/media/adequate-medium.ecfb182da345b098a665.ttf",
-    "static/media/adequate-bold.ttf": "/7-react/static/media/adequate-bold.1d5d55e72714e9f6a074.ttf",
+    "static/media/GILROY-MEDIUM.TTF": "/7-react/static/media/GILROY-MEDIUM.1b4da6582f83f45ea039.TTF",
+    "static/media/GILROY-BOLD.TTF": "/7-react/static/media/GILROY-BOLD.ca49f7658c4eaac78b6d.TTF",
+    "static/media/GILROY-BLACK.TTF": "/7-react/static/media/GILROY-BLACK.3566c87fe5eaaa7052d5.TTF",
     "index.html": "/7-react/index.html",
-    "main.39637832.css.map": "/7-react/static/css/main.39637832.css.map",
-    "main.56fb5e73.js.map": "/7-react/static/js/main.56fb5e73.js.map",
+    "main.bfb5fe08.css.map": "/7-react/static/css/main.bfb5fe08.css.map",
+    "main.2fcc5662.js.map": "/7-react/static/js/main.2fcc5662.js.map",
     "787.0bdde55a.chunk.js.map": "/7-react/static/js/787.0bdde55a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39637832.css",
-    "static/js/main.56fb5e73.js"
+    "static/css/main.bfb5fe08.css",
+    "static/js/main.2fcc5662.js"
   ]
 }
