@@ -107,26 +107,23 @@ a:visited:active {
   color: #fff;
 }
 
-.css-bupxxy-MuiInputBase-root-MuiInput-root::before {
+.MuiInputBase-input::before {
+  border-color: rgb(255, 255, 255) !important;
+
+}
+ .MuiInputBase-root::before {
   border-color: rgb(255, 255, 255) !important;
 }
 
-.css-1qymr3o-MuiInputBase-root-MuiInput-root::before {
-  border-color: rgb(255, 255, 255) !important;
-}
-
-.css-1qymr3o-MuiInputBase-root-MuiInput-root {
-  color: #fff !important;
-}
-
-.css-bupxxy-MuiInputBase-root-MuiInput-root {
-  color: #fff !important;
-}
-
-.css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
-  color: #fff !important;
+input::placeholder {
+  color: #ffffff !important;
+  opacity: 1 !important
 }
 
 fieldset {
   border-color: #fff !important;
+}
+
+div label {
+  color: #fff !important
 }

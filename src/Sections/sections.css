@@ -174,7 +174,7 @@
 
     .regular {
         font-family: adequate-regular;
-        font-size: 8px !important;
+        font-size:  8px !important;
         text-align: left !important;
       }
 
@@ -209,6 +209,10 @@
     .cover {
         /* Adjust the background size for smaller screens */
         background-size: contain;
+    }
+
+    .KICKSTARTER {
+        font-size: 12px !important;
     }
 }
 

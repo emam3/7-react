@@ -25,7 +25,7 @@ export const AboutUs = () => {
                         and modern way to make you implement the marketing mix to 
                         be your steps to success closer and make you in the top.
                     </p>
-                    <p className='regular' style={{color: '#05E2FC', fontSize: 24}}>We KICKSTARTER are the partner of success</p>
+                    <p className='regular KICKSTARTER' style={{color: '#05E2FC', fontSize: 24}}>WE KICKSTARTER ARE THE PARTNER OF SUCCESS</p>
                 </div>
 
             </div>
