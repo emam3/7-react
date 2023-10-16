@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/7-react/static/css/main.bfb5fe08.css",
-    "main.js": "/7-react/static/js/main.2fcc5662.js",
+    "main.css": "/7-react/static/css/main.3326d62d.css",
+    "main.js": "/7-react/static/js/main.a1e710f1.js",
     "static/js/787.0bdde55a.chunk.js": "/7-react/static/js/787.0bdde55a.chunk.js",
     "static/media/GILROY-MEDIUM.TTF": "/7-react/static/media/GILROY-MEDIUM.1b4da6582f83f45ea039.TTF",
     "static/media/GILROY-BOLD.TTF": "/7-react/static/media/GILROY-BOLD.ca49f7658c4eaac78b6d.TTF",
     "static/media/GILROY-BLACK.TTF": "/7-react/static/media/GILROY-BLACK.3566c87fe5eaaa7052d5.TTF",
     "index.html": "/7-react/index.html",
-    "main.bfb5fe08.css.map": "/7-react/static/css/main.bfb5fe08.css.map",
-    "main.2fcc5662.js.map": "/7-react/static/js/main.2fcc5662.js.map",
+    "main.3326d62d.css.map": "/7-react/static/css/main.3326d62d.css.map",
+    "main.a1e710f1.js.map": "/7-react/static/js/main.a1e710f1.js.map",
     "787.0bdde55a.chunk.js.map": "/7-react/static/js/787.0bdde55a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.bfb5fe08.css",
-    "static/js/main.2fcc5662.js"
+    "static/css/main.3326d62d.css",
+    "static/js/main.a1e710f1.js"
   ]
 }
