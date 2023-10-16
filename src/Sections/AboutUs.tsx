@@ -20,12 +20,12 @@ export const AboutUs = () => {
 
                 <div className="col-lg-4 col-md-3 col-xs-12 about-us-text">
                     <h1 className='h1' style={{color: '#05E2FC'}}>About us</h1>
-                    <p className='regular clearfix'>
+                    <p className='bold clearfix'>
                         Your steps that start with us are going in a scientific 
                         and modern way to make you implement the marketing mix to 
                         be your steps to success closer and make you in the top.
                     </p>
-                    <p className='bold' style={{color: '#05E2FC'}}>We KICKSTARTER are the partner of success</p>
+                    <p className='regular' style={{color: '#05E2FC', fontSize: 24}}>We KICKSTARTER are the partner of success</p>
                 </div>
 
             </div>
