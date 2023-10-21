@@ -128,6 +128,16 @@
     padding-bottom: 50px;
 }
 
+.clients {
+    display: flex;
+    flex-direction: column;
+    background-color: #0F0150;
+}
+
+.clientsImgs {
+    margin-top: 100px;
+}
+
 @media only screen and (max-width: 1200px) {
     h1 {
         font-size: 100px;
@@ -152,9 +162,15 @@
     }
 }
 
-
-
 @media (max-width: 767px) {
+    .clientsImgs {
+        margin-top: 40px;
+    }
+
+    .client {
+        margin-bottom: 80px;
+    }
+
     .form {
         padding: 30px;
     }
